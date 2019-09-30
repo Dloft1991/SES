@@ -1,0 +1,28 @@
+.Title{
+    margin-top: 60px;
+    font-size: 130px;
+    text-align: center;
+    /* margin-left: -25%; */
+    /* background-color :white; */
+    color:rgb(53, 53, 53);
+    font-family: 'Lobster', cursive;
+    /* font-family: 'Chivo', sans-serif; */
+/* font-family: 'Raleway', sans-serif; */
+/* font-family: 'Exo 2', sans-serif; */
+/* font-family: 'Vollkorn', serif; */
+}
+#MenuItem{
+    color:rgb(53, 53, 53);
+    /* font-family: 'Playfair Display', serif; */
+/* font-family: 'Lora', serif; */
+font-family: 'Lobster', cursive;
+/* font-family: 'Cinzel', serif; */
+/* font-family: 'Suranna', serif; */
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
