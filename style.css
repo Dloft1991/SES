@@ -27,8 +27,7 @@ font-family: 'Lobster', cursive;
     width: 500px; 
     height: 200px; 
     margin-left: 30%; 
-    background-color: black;
-
+    margin-top: 5%;
 }
 footer{
     position: fixed;
@@ -52,10 +51,10 @@ footer{
         height: 60px;
     }
     .Carousel{
-        width: 170px; 
-        height: 30px; 
-        margin-left: 30%; 
-        background-color: black;
+        width: 250px; 
+        height: 100px; 
+        margin-left: 20%; 
+        margin-top: 5%;
     
     }
     footer{
