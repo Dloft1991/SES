@@ -1,8 +1,8 @@
 .Title{
     margin-top: 60px;
     font-size: 130px;
-    text-align: center;
-    /* margin-left: -25%; */
+    
+    margin-left: 5%;
     /* background-color :white; */
     color:rgb(53, 53, 53);
     font-family: 'Lobster', cursive;
@@ -10,6 +10,10 @@
 /* font-family: 'Raleway', sans-serif; */
 /* font-family: 'Exo 2', sans-serif; */
 /* font-family: 'Vollkorn', serif; */
+}
+.TitleLogo{
+    width: 200px;
+    height: 200px;
 }
 #MenuItem{
     color:rgb(53, 53, 53);
@@ -19,6 +23,13 @@ font-family: 'Lobster', cursive;
 /* font-family: 'Cinzel', serif; */
 /* font-family: 'Suranna', serif; */
 }
+.Carousel{
+    width: 500px; 
+    height: 200px; 
+    margin-left: 30%; 
+    background-color: black;
+
+}
 footer{
     position: fixed;
     left: 0;
@@ -26,3 +37,32 @@ footer{
     width: 100%;
     text-align: center;
 }
+
+@media only screen and (max-width: 414px) {
+    .Title{
+        margin-top: 60px;
+        margin-left: 15%;
+        font-size: 33px;
+        text-align: center;
+        color:rgb(53, 53, 53);
+        font-family: 'Lobster', cursive;
+    }
+    .TitleLogo{
+        width: 60px;
+        height: 60px;
+    }
+    .Carousel{
+        width: 170px; 
+        height: 30px; 
+        margin-left: 30%; 
+        background-color: black;
+    
+    }
+    footer{
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+    }
+  }
